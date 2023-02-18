@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>IMC calculator</title>
+</head>
+
+<body>
+
+    <form class="form-calculator" action="post">
+
+        <h1>Calcul<span class="bolder">d'IMC</span></h1>
+
+        <label for="size"> votre taille en cm :
+            <input type="text" name="size" id="size" placeholder ="votre taille en cm" required>
+        </label>
+
+        <label for="weight"> votre poids en kg :
+            <input type="text" name="weight" id="weight" placeholder="votre poids en kg" required>
+        </label>
+
+        <label for="imc"> votre Indice de Masse Corporel:</label>
+            <input type="text" name="imc" id="imc" placeholder="votre IMC" required>
+            <p class="text-alert"></p>
+
+        <button type="submit">Calculer mon IMC</button>
+
+    </form>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
