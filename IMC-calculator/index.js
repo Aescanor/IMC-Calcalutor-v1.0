@@ -41,7 +41,7 @@ form.addEventListener("click", function(e){
 
     function imcCalculator(){
 
-      let resultat = (Math.round(weight/(size*size)*10000))
+      let resultat = (Math.round(weight/(size**2)*10000))
 
       // 6-Retourner la valeur d'IMC dans un input :
       imcInput.value=(resultat)
