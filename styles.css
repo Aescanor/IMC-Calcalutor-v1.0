@@ -1,0 +1,65 @@
+*, :before, :after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --myMinearGradientColor : linear-gradient(45deg, crimson, royalBlue);
+}
+
+html, body{
+    min-height: 100%;
+    min-height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color: white;
+    background: linear-gradient(45deg, crimson, royalBlue);
+}
+
+.form-calculator{
+    width: 60%;
+    height: 400px;
+    margin: 200px auto;
+    background: var(--myMinearGradientColor);    
+    border: 2px solid white;
+    border-radius: 3px;
+    top: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1{
+    color: antiquewhite;
+    font-weight: 800;
+}
+
+label{
+    font-size: 32px;
+    font-style: oblique;
+    color: antiquewhite;
+}
+
+input{
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.text-alert{
+    font-size: 20px;
+    font-style: italic;
+}
+
+button{
+    font-size: 18px;
+    font-weight: 800;
+    padding: 20px;
+    border-radius: 3px;
+
+}
